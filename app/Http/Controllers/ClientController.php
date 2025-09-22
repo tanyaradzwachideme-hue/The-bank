@@ -94,6 +94,10 @@ public function make_transaction(Request $request)
 
     return redirect()->route('dashboard')->with('success', 'Transaction completed.');
 }
+
+public function test(){
+//test code
+}
 }
 
 
